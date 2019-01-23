@@ -5,13 +5,9 @@ def initialize(emails)
 end
 
 def parse(emails)
-  rows = emails.split('\n')
-  emails = rows.collect do |row|
-    data = row.split(/[\s,]/)
-    data
-
+  email_arr = emails.split(/\s|, /)
   end
-      data.uniq!
+      email_arr.uniq!
 end
 
 

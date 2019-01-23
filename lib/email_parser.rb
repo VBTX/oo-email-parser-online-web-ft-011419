@@ -5,7 +5,7 @@ class EmailParser
     @emails = emails
   end
 
-def parse
+def parse(emails)
   email_arr = emails.split(/\s|, /)
     email_arr
   end

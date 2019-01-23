@@ -1,9 +1,6 @@
 class EmailParser
   attr_accessor :emails
 
-def initialize
-end
-
 def self.parse(emails)
   email_arr = emails.split(/\s|, /)
     email_arr

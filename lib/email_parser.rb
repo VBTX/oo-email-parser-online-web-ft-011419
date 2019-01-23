@@ -6,7 +6,7 @@ end
 
 def self.parse(emails)
   email_arr = emails.split(/\s|, /)
-    email_arr.uniq
+    email_arr
   end
 
 end
